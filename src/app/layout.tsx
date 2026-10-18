@@ -8,6 +8,7 @@ const serif = Instrument_Serif({ subsets: ["latin"], weight: "400", style: ["nor
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--f-mono", display: "swap" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://allan-raymond-portfolio.vercel.app"),
   title: `${PROFILE.name} — ${PROFILE.role}`,
   description: `${PROFILE.name}, ${PROFILE.role} based in ${PROFILE.location}.`,
   openGraph: { images: ["/og.jpg"] },

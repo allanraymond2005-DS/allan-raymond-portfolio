@@ -132,7 +132,7 @@ export const PROFILE: Profile = {
   aboutExtra:
     "Based in Chennai, with knowledge of Tamil, English, Hindi, and German.",
   languages: ["Tamil", "English", "Hindi", "German"],
-  github: null,
+  github: "https://github.com/allanraymond2005-DS",
   linkedin: "https://www.linkedin.com/in/allanraymond26",
   resumePath: "/Allan_Raymond_S_Resume.pdf",
 };
